@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+
+
+html{
+  font-size:100%;
+}
+
+
+
+
+
+body {
+    font-family: "Meiryo";   /*「 font-family: フォント名; 」*/
+    background-image: url("../images/wood.jpg");
+    background-size: cover;  /*背景をめいいっぱい広げる*/
+    line-height:1.7; /*行の高さ*/
+    color:greenyellow;
+    margin-left:23px;
+  
+    
+  }
+
+
+
+
+  /*ヘッダー*/
+  .header {
+    background-color:forestgreen;
+    color: black;
+    height: 80px; 
+    max-width:100%;
+    
+  }
+
+ .Profile{
+  text-align:center;
+  padding-top:13px;
+ }
+  
+
+ /*リンク*/
+ .main-nav{
+  font-size:1.25rem;
+
+  margin-top:34px;
+  padding-left:20px;
+  list-style:none;
+  text-transform:uppercase;  /*すべての文字を大文字に変換します。*/
+ }
+
+
+.main-nav a{
+  color:cornflowerblue;  /*<aタグ>の文字列の色を指定*/
+}
+
+.main-nav a:hover{
+  color:tomato;    /*リンクにカーソルがのっているときの色*/
+}
+
+
+
+
+
+
+  /*自己紹介リストの行間*/
+  .introduction1{
+    line-height:1.7;
+    font-size:20px;
+  }
+ 
+
+/*テーブル*/
+
+.table{
+   
+}
+
+
+th,td {
+  border: solid 2px;          /* 枠線指定 */
+}
+
+table {
+  border-collapse:  collapse; /* セルの線を重ねる */
+  font-size:18px;
+}
+
+th {
+  width:  365px;              /* 幅指定 */
+  height: 50px;               /* 高さ指定 */
+  background-color:gray;
+  font-size:23px;
+}
+
+td{
+  height:35px;
+}
+ 
+
+
+
+
+
+/*
+  .footer {
+    
+    background-color: rgb(142, 255, 127);
+    height: 30px;
+  }
+  */
+  

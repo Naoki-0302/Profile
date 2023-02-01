@@ -1,0 +1,138 @@
+@charset "UTF-8";   /*コードの文字化けを防ぐ*/
+
+
+/*共通部分*/
+html{
+    font-size:100%;
+}
+
+body{
+    font-family:"Meiryo";
+    background-image: url("../images/development.jpg");
+    background-size: cover;
+    background-position: center top;  /*背景位置*/
+    min-height:100vh; /*画面の高さ指定*/
+    line-height:1.7; /*行の高さ*/
+    color:aqua;
+    margin: 0 50px 0;
+    
+    padding:0;
+}
+
+
+
+
+  .header {
+    background-color: gray;
+    color: black;
+    height: 85px; 
+    max-width:100%;
+    
+  }
+  .application{
+    text-align:center;
+    padding-top:15px;;
+    font-size:40px;
+  }
+  
+
+ 
+
+
+
+  .main-nav{
+   
+    font-size:1.25rem;
+    margin-top:34px;
+    padding-left:20px;
+    list-style:none;
+    text-transform:uppercase;  /*すべての文字を大文字に変換します。*/
+}
+
+
+.main-nav li{
+    margin-left:0;  /*<li>タグの左側の余白を指定*/
+    font-size:25px;
+  }
+
+.main-nav a{
+    color:cornflowerblue;  /*<aタグ>の文字列の色を指定*/
+}
+
+.main-nav a:hover{
+    color:tomato;    /*リンクにカーソルがのっているときの色*/
+}
+
+
+
+ 
+  
+/**/
+.main{
+    font-size:25px;
+}
+
+.main2{
+  font-size:20px;
+}
+
+.main2 p{
+  font-size:80%;
+}
+
+ 
+ 
+ .app{
+  
+   margin-left:25px;
+ 
+   font-size:30px;
+   font-weight:bold;
+   letter-spacing: 10px;  /*文字の間隔を広げる*/
+ }
+ 
+ 
+ 
+ .app_picture {
+  display: flex; /*横並び*/
+  padding-left:45px;
+  padding-right:45px;
+ 
+
+}
+
+
+
+
+ 
+
+.Qiita{
+  font-size:25px;
+}
+ 
+
+.Qiita2 a{
+  text-decoration: none;
+  font-weight:bold;
+  font-size:20px;
+  padding-left:80px;
+  }
+  
+.Qiita2 h3{
+ padding-left:74px;
+ font-weight:bold;
+ font-size:24px;
+ }
+
+
+
+/*
+  .footer {
+    
+    background-color: rgb(142, 255, 127);
+    height: 30px;
+  }
+  */
+  
+
+  
